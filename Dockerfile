@@ -1,19 +1,12 @@
-FROM node:lts-buster
-
-RUN apt-get update && \
-  apt-get install -y \
-  ffmpeg \
-  imagemagick \
-  webp && \
-  apt-get upgrade -y && \
-  rm -rf /var/lib/apt/lists/*
-
-COPY package.json .
-
-RUN npm install && npm install qrcode-terminal
-
-COPY . .
-
-EXPOSE 5000
-
-CMD ["node", "index.js"]
+[
+ "6289673110783@s.whatsapp.net",
+"6283871424898@s.whatsapp.net",
+"6289502289957@s.whatsapp.net",
+"6285728152534@s.whatsapp.net",
+"6289684500637@s.whatsapp.net",
+"6289510733789@s.whatsapp.net",
+"6282181446478@s.whatsapp.net",
+"6285727785143@s.whatsapp.net",
+"6285783939860@s.whatsapp.net",
+"6282150304202@s.whatsapp.net"
+]
